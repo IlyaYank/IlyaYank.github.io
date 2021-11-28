@@ -1,0 +1,489 @@
+body{
+	font-family: Areal,sans-serif;
+}
+nav {
+	width: 100%;
+	height: 60px;
+	background-color: #344051;
+
+}
+
+h2{
+	font-size: 32px;
+	font-weight: bold;
+	color: #263244;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 100px;
+}
+
+.logo{
+	color:#fff;
+	font-size: 23px;
+	line-height: 60px;
+	padding-left: 300px;
+	float:left;
+
+}
+
+.menu{
+	float:left;
+	padding-left: 380px;
+	
+}
+
+.menu li{
+	float: left;
+	line-height: 60px;
+	font-size: 15px;
+	color: white;
+	margin-right: 15px;
+	text-transform: uppercase;
+}
+.main{
+	width: 100%;
+	height:calc(100% - 60px);
+	background: url("../img/main/boy.png") no-repeat 90% 100%/auto 85%, url("../img/main/bg.jpg") center/cover no-repeat;
+	box-shadow: inset 0 -12px 10px rgba(142,142,149,.3);
+}
+
+.title_container{
+	float: left;
+	margin: 200px 0 0 280px;
+	color: #2c384a;
+	text-align: center;
+
+}
+
+.title_container h1{
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.title_container h4{
+	margin-top: 20px;
+	font-size: 20px;
+	color: #79818d;
+}
+
+.title_container button{
+	height: 40px;
+	text-align: center;
+	border: 2px solid #6d7682;
+	border-radius: 5px;
+	color: #6d7682;
+	background:none;
+	font-size: 13px;
+	padding: 0 15px;
+	margin: 35px 14px 0;
+
+}
+
+
+.about_me{
+	height: 80%;
+}
+
+.about_me h2{
+	text-align: center;
+	margin-top: 80px;
+}
+
+.border {
+	width: 70px;
+	height: 4px;
+	background-color: #d17700;
+	margin: 0 auto 45px;
+	border-radius: 2px;
+}
+p.photo_andrea{
+	text-align: center;
+}
+.about_me_p_div{
+	width: 700px;
+	margin: 20px auto 30px;
+	position: relative;
+}
+.about_me_p{
+	text-align: left;
+	color: rgba(63,73,90,.7);
+}
+
+.about_me button{
+	position: absolute;
+	height: 30px;
+	text-align: center;
+	border: 2px solid #6d7682;
+	border-radius: 5px;
+	padding: 0 15px 0 25px;
+	background:url("../img/about_me/download.png") 3% no-repeat;
+	font-size: 13px;
+	margin: 35px 14px 70px;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+.about_me button>a{
+	color: #6d7682
+}
+
+.my_skills{
+	width: 100%;
+	height: 100%;
+	background: url("../img/my_skills/bg.jpg") 50% no-repeat; 
+}
+
+.alignment{
+	max-width: 1100px;
+	margin: 0 auto;
+
+}
+
+.my_skills>h2{
+	padding-top: 150px;  
+}
+
+.my_skills_border{
+	margin-bottom: 100px;
+}
+
+.my_skills_alignment{
+	float: left;
+	width: 215px;
+	margin-left: 50px;
+	text-align: center;
+}
+
+.my_skills_alignment img{
+	margin-bottom: 30px;
+}
+
+.my_skills_alignment h4{
+	color: #cf7600;
+	font-family: Bahnschrift, sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	padding-bottom: 12px;
+}
+
+.my_skills_alignment p{
+	line-height: 15px;
+	font-family: Calibri, serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: rgba(63, 73,90,.9);
+}
+
+
+.cases{
+	color: #384354;
+	position: relative;
+}
+
+.cases p{
+	font-family: Calibri, serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: rgba(63, 73,90,.9);
+}
+.cases .text_fish{
+	text-align: center;
+	font-family: Calibri, serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: rgba(63, 73,90,.9);
+}
+
+.cases_block{
+	width: 950px;
+	margin: 30px 0 0 10%;
+
+}
+
+.cases h3{
+	font-size: 23px;
+	line-height: 50px;
+	font-weight: 600;
+}
+
+.cases a{
+	color: #384354;
+}
+
+.cases button{
+	font-size: 20px;
+	height: 45px;
+	padding: 0 40px;
+	background-color: #99d0cb;
+	color: white;
+	border-radius: 5px;
+	margin-top:25px;
+}
+
+
+.name_project{
+	position: absolute;
+	left: 35%;
+	bottom: 11%;
+
+}
+
+.cases h4{
+	font-size: 20px;
+	line-height: 30px;
+
+}
+
+.name_project p{
+	line-height: 20px;
+}
+
+.calculation{
+	color: #1c2534;
+	position: relative;
+}
+
+.calculation h2{
+	margin-top: 150px;
+}
+
+.calculation_form {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.calculation_form h3{
+	font-size:30px;
+	margin: 20px 0 35px;
+}
+
+.calculation_form select{
+	display: inline-block;
+	width: 1000px;
+	height: 60px;
+	background-color: #eeeeee;
+
+}
+
+.calculation_fonts{
+	font-size: 16px;
+	color: #737373;
+	font-weight: 500px;
+}
+
+
+
+.money{
+	margin-top: 30px;
+	padding: 25px 0 40px;
+	border-top: 2px solid #d1d1d1;
+
+}
+
+.money h4{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.summa{
+	display: inline-block;
+	float: right;
+}
+
+.calculation_button{
+	position: absolute;
+	left: 40%;
+	transform: translate(50%, 0);
+
+}
+.calculation_button input[type="submit"]{
+	height: 30px;
+	border: 2px solid #6d7682;
+	text-align: center;
+	background: none;
+	padding: 0 15px;
+	border-radius: 5px;
+	color: #6d7682;
+}
+
+.statistics{
+	margin: 130px 0 60px;
+	background: url("../img/statistics/bg.jpg") center no-repeat;
+	height: 70%;
+}
+
+.statistics h2{
+	padding-top: 50px
+}
+.statistics_center{
+	max-width: 1100px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.statistics_float{
+	float: left;
+	margin-left: 50px; 
+	text-align: center;
+}
+
+
+.statistics p{
+	margin: 20px;
+	font-size: 16px;
+	color: #323e4f;
+	line-height: 30px;
+}
+
+.statistics_numbers{
+	font-family: Impact, sans-serif;
+	font-size: 37px;
+}
+
+.reviews{
+	width: 700px;
+	margin: 0 auto;
+}
+
+.reviews p{
+	text-align: center;
+	color: #243042;
+	font-family: Calibri, serif;
+}
+.reviews img{
+	margin-bottom: 35px;
+}
+
+.massage{
+	line-height: 1.2em;
+	
+}
+.who{
+	margin: 20px 0 30px;
+}
+
+.input_radio{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffa500;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+footer{
+	margin-top: 80px;
+	background: url("../img/contact/bg.jpg" ) center no-repeat; 
+	height: 100%;
+	width: 100%;
+	color: white;
+}
+
+a.mail_a{
+	color: white;
+}
+
+.footer_center{
+	width: 740px;
+	margin: 0 auto;
+}
+
+.footer_text{
+	text-align: center;
+	line-height: 70px;
+}
+
+
+footer h2{
+	padding-top: 60px; 
+	color: white;
+}
+
+footer .border{
+	margin-bottom: 10px;
+}
+
+footer h3{
+	margin: 100px 0 45px;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+.footer_contact{
+	float: left;
+	margin-left: 50px;
+	text-align: center; 
+	width: 160px;
+}
+
+.footer_contact p{
+	margin-top: 20px;
+}
+
+.location{
+	line-height: 18px;
+}
+
+.bg {
+	background-color: rgba(255,255,255, .8);
+	padding-left: 15px;
+}
+
+.form_massage{
+	width: 360px;
+	height: 30px;
+
+}
+
+.massage_name{
+	margin-right: 16px;
+}
+
+form textarea{
+	margin-top: 15px;
+	padding-top: 10px; 
+	width: 100%;
+	height: 90px;
+}
+
+.button_form_div{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+
+.button_form{
+	margin-top:25px;
+	height: 40px;
+	padding: 0 15px;
+	font-size: 20px;
+	border: 2px solid white;
+	border-radius: 5px; 
+	background: none;
+	color: white;
+	text-align: center;
+}
