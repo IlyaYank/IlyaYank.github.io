@@ -17,13 +17,21 @@ h2{
 	line-height: 100px;
 }
 
+header{
+	position: fixed;
+	width: 100%;
+	opasiti:1;
+	z-index: 3;
+}
+
 .logo{
+	display: inline-block;
 	color:#fff;
 	font-size: 23px;
 	line-height: 60px;
 	padding-left: 300px;
 	float:left;
-
+	animation: logo ease 1.5s;
 }
 
 .menu{
@@ -39,13 +47,35 @@ h2{
 	color: white;
 	margin-right: 15px;
 	text-transform: uppercase;
+	opacity:0;
+	animation: menu 2s ease forwards;
+	animation-delay: 1s;
 }
+
+.menu li a{
+	color: white;
+	display: inline-block;
+	transform: scale(1);
+}
+
+
+.menu li a:hover{
+	color:#fe9914;
+	font-weight: bold;
+}
+
+.menu li a:active{
+	transform: scale(1.2);
+}
+
 .main{
 	width: 100%;
-	height:calc(100% - 60px);
+	height: 100%;
 	background: url("../img/main/boy.png") no-repeat 90% 100%/auto 85%, url("../img/main/bg.jpg") center/cover no-repeat;
 	box-shadow: inset 0 -12px 10px rgba(142,142,149,.3);
 }
+
+
 
 .title_container{
 	float: left;
@@ -76,9 +106,22 @@ h2{
 	font-size: 13px;
 	padding: 0 15px;
 	margin: 35px 14px 0;
-
+	transform: scale(1);
+	transition-duration: 0.5s;
+	transition-property: transform;
 }
 
+.title_container button:hover{
+	background-color: #6d7682;
+	color: white;
+	font-weight: bold;
+	transform: scale(1.1);
+	box-shadow: 0 0 10px rgba(0,0,0,.5)
+}
+
+.title_container button:active{
+	background-color: #5c6673;
+}
 
 .about_me{
 	height: 80%;
@@ -109,7 +152,7 @@ p.photo_andrea{
 	color: rgba(63,73,90,.7);
 }
 
-.about_me button{
+.about_me input{
 	position: absolute;
 	height: 30px;
 	text-align: center;
@@ -118,12 +161,26 @@ p.photo_andrea{
 	padding: 0 15px 0 25px;
 	background:url("../img/about_me/download.png") 3% no-repeat;
 	font-size: 13px;
-	margin: 35px 14px 70px;
+	margin: 35px 0 70px;
+	left: 40%;
+	transform: translate(-50%,0);
+	color: #6d7682;
+	transform: scale(1);
+}
+
+
+.about_me input:hover{
+	background-color: #6d7682;
+	color: white;
+	font-weight: bold;
+	box-shadow: 0 0 10px rgba(0,0,0,.5);
+	transform: scale(1.1);
 	left: 50%;
 	transform: translate(-50%,0);
 }
-.about_me button>a{
-	color: #6d7682
+
+.about_me input:active{
+	transform: scale(1);
 }
 
 .my_skills{
@@ -194,7 +251,7 @@ p.photo_andrea{
 }
 
 .cases_block{
-	width: 950px;
+	width: 1100px;
 	margin: 30px 0 0 10%;
 
 }
@@ -219,19 +276,25 @@ p.photo_andrea{
 	margin-top:25px;
 }
 
+.cases_block_left {
+	float:left;
+	margin-right: 60px;
+}
 
 .name_project{
-	position: absolute;
-	left: 35%;
-	bottom: 11%;
-
+	display: inline-block;
+	width: 700px;
+	margin-top: 5px;
 }
+
 
 .cases h4{
 	font-size: 20px;
 	line-height: 30px;
 
 }
+
+
 
 .name_project p{
 	line-height: 20px;
@@ -487,3 +550,50 @@ form textarea{
 	color: white;
 	text-align: center;
 }
+
+@keyframes logo{
+	from{
+		opacity: 0;
+		margin-left: 120%;
+	}
+
+	to{
+		opacity: 1;
+		margin-left: 0;
+	}
+}
+
+@keyframes menu{
+	from{
+		opacity: 0;
+		margin-top:-80px;
+		transform: rotate(-180deg);
+	}
+
+	to{
+		margin-top:0;
+		opacity: 1;
+		transform: rotate(0deg);
+	}
+}
+
+.menu li:nth-child(1){
+	animation-delay: 1s;
+}
+
+.menu li:nth-child(2){
+	animation-delay: 1.4s;
+}
+.menu li:nth-child(3){
+	animation-delay: 1.8s;
+}
+.menu li:nth-child(4){
+	animation-delay: 2.2s;
+}
+.menu li:nth-child(5){
+	animation-delay: 2.6s;
+}
+.menu li:nth-child(6){
+	animation-delay: 3s;
+}
+

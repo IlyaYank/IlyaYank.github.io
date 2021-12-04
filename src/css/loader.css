@@ -1,0 +1,27 @@
+.loader {
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+}
+.loader_inner {
+  height: 60px;
+  width: 60px;
+  background-image: url("../img/Iphone-spinner-1.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: center center;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+}
+ 
+.hide {
+  opacity:0;
+}
