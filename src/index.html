@@ -4,11 +4,15 @@
 	<meta charset="UTF-8">
 	<meta charset="description" content="Это моя первая страница">
 	<title>Андрей Браун - Веб-разработчик</title>
+	<meta name="description" content="Страница Андрея">
+	<meta name="author" content="Илья">
+	<meta name="robots" content="index follow"><!--Закрытая страица content="noindex nofollow" -->
 	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
 	<!--<link rel="stylesheet" href="css/loader.css">
-	<script type="text/javascript" src="js/loader.js"></script>-->
-
+	<script type="text/javascript" src="js/loader.js"></script>--> 
+	<script src="js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
 <div class="loader">
@@ -16,61 +20,101 @@
 </div>
 	<header>
 		<nav>
-			<div class="logo">Андрей Браун</div>
-			<div class="menu">
-				<ul>
-					<li><a href="#">Обо мне</a></li>
-					<li><a href="#">Услуги</a></li>
-					<li><a href="#">Кейсы</a></li>
-					<li><a href="#">Прайс</a></li>
-					<li><a href="#">Отзывы</a></li>
-					<li><a href="">Контакты</a></li>
-				</ul>
-			</div>
+			<div class="container">	
+				<div class="row">
+					<div class="col-xxl-2 col-lg-3 col-7"><div class="logo">Андрей Браун</div></div>
+					<div class="px-0 col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block"><div class="menu">
+						<ul>
+							<li><a href="#">Обо мне</a></li>
+							<li><a href="#">Услуги</a></li>
+							<li><a href="#">Кейсы</a></li>
+							<li><a href="#">Прайс</a></li>
+							<li><a href="#">Отзывы</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div></div>
+					<div class="col-5  botton_nav">
+						<div class="dropdown">
+						  <button class="btn dropdown-toggle white_btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+						   Навигация
+						  </button>
+						  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+							    <li><a class="dropdown-item" href="#">Обо мне</a></li>
+							    <li><a class="dropdown-item" href="#">Услуги</a></li>
+							    <li><a class="dropdown-item" href="#">Кейсы</a></li>
+							    <li><a class="dropdown-item" href="#">Прайс</a></li>
+							    <li><a class="dropdown-item" href="#">Отзывы</a></li>
+							    <li><a class="dropdown-item" href="#">Контакты</a></li>
+						  </ul>
+						</div>
+					</div>
+				</div>
+			</div>	
 		</nav>
 	</header>
+<main>
+	<section class="main">
+			<div class="container  main_2">
+				<div class="row align-items-center h-100">
+					<div class="col-lg-6 mt-5 pt-5">
+						<div class="title_container">
+							<h1>Привет <br> Я Андрей Браун</h1>
+							<h4>Фулл стек Веб-разработчик</h4>
+							<button>Обо мне</button>
+							<button>Мои работы</button>
+						</div>
+					</div>	
+				</div>
+			</div>	
+	</section>
 
-	<section class="main"><div class="title_container">
-		<h1>Привет <br> Я Андрей Браун</h1>
-		<h4>Фулл стек Веб-разработчик</h4>
-		<button>Обо мне</button>
-		<button>Мои работы</button>
-	</div></section>
 	<section class="about_me">
-		<h2>Обо мне</h2>
-		<div class="border"></div>
-		<p class="photo_andrea" ><img src="img/about_me/boy2.jpg" alt="Фотография Андрея"></p>
-		<div class="about_me_p_div">
-			<p class="about_me_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p><br>
-			<p class="about_me_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
-			<a href="#"><input type="submit" value="Скачать резюме"></a>
-			
+		<div class="container about_me_2">
+			<div class="row  justify-content-center ">
+				<div class="col-lg-8 col-md-8 col-sm-7 col-6">
+					<h2 class=>Обо мне</h2>
+					<div class="border"></div>
+					<p class="photo_andrea" ><img src="img/about_me/boy2.jpg" alt="Фотография Андрея"></p>
+					<div class="about_me_p_div col-lg-7 col-md-8 col-sm-7 col-6">
+						<p class="about_me_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p><br>
+						<p class="about_me_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
+						<div class=" download_rezume"><a href="#"><input type="submit" value="Скачать резюме"></a></div>
+					</div>
+				</div>
+			</div>
 		</div>
+		
 		
 	</section>
 	<section class="my_skills">
-		<h2>Что я умею</h2>
-		<div class="border my_skills_border"></div>
-		<div class="alignment">
-			<div class="web_design my_skills_alignment">
-				<img src="img/my_skills/nout.png" alt="Картинка монитора">
-				<h4>Веб-дизайн</h4>
-				<p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam. </p>
-			</div>
-			<div class="development my_skills_alignment">
-				<img src="img/my_skills/знак.png" alt="Картинка разработки">
-				<h4>Разработка</h4>
-				<p>Lorem ipsum dolor sit amet placerat facilisis mi in tempus eleifend pellentesque. </p>
-			</div>
-			<div class="CEO my_skills_alignment">
-				<img src="img/my_skills/ракета.png" alt="Картинка ракеты">
-				<h4>СЕО-Оптимизация</h4>
-				<p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
-			</div>
-			<div class="marketing my_skills_alignment">
-				<img src="img/my_skills/мегафон.png" alt="Картинка мегофона">
-				<h4>Маркетинг</h4>
-				<p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque .</p>
+		<div class="container">
+			<div class="row my_skills_2">
+				<div class="col-12">
+					<h2>Что я умею</h2>
+					<div class="border my_skills_border"></div>
+					<div class="alignment">
+						<div class="web_design my_skills_alignment">
+							<img src="img/my_skills/nout.png" alt="Картинка монитора">
+							<h4>Веб-дизайн</h4>
+							<p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam. </p>
+						</div>
+						<div class="development my_skills_alignment">
+							<img src="img/my_skills/знак.png" alt="Картинка разработки">
+							<h4>Разработка</h4>
+							<p>Lorem ipsum dolor sit amet placerat facilisis mi in tempus eleifend pellentesque. </p>
+						</div>
+						<div class="CEO my_skills_alignment">
+							<img src="img/my_skills/ракета.png" alt="Картинка ракеты">
+							<h4>СЕО-Оптимизация</h4>
+							<p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+						</div>
+						<div class="marketing my_skills_alignment">
+							<img src="img/my_skills/мегафон.png" alt="Картинка мегофона">
+							<h4>Маркетинг</h4>
+							<p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque .</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -161,6 +205,7 @@
 			<input  type="radio" value="novice">
 		</div>
 	</section>
+</main>
 	<footer>
 		<h2>Мои контакты</h2>
 		<div class="border"></div>
@@ -193,5 +238,6 @@
 			</form>
 		</div>
 	</footer>
+
 </body>
 </html>
