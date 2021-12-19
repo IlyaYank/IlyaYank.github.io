@@ -382,8 +382,9 @@ p.photo_andrea{
 
 .alignment{
 	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-between;
+	flex-flow: row wrap;
+	justify-content: center;
+
 }
 
 
@@ -399,7 +400,7 @@ p.photo_andrea{
 .my_skills_alignment{
 	width: 215px;
 	text-align: center;
-
+	margin-right: 30px;
 }
 
 .my_skills_alignment img{
@@ -453,3 +454,402 @@ p.photo_andrea{
 	}
 
 }
+
+
+
+
+/********* cases ********/
+
+
+
+.cases{
+	color: #384354;
+	position: relative;
+}
+
+.cases p{
+	font-family: Calibri, serif;
+	font-size: 15px;
+	font-weight: 500;
+	color: rgba(63, 73,90,.9);
+}
+.cases .text_fish{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	font-family: Calibri, serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: rgba(63, 73,90,.9);
+	margin-bottom: 20px; 
+}
+
+.cases_block{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+@media(max-width: 992px){
+	.cases_block img{
+		display: none;
+	}
+
+
+}
+
+
+
+
+
+.cases h3{
+	font-size: 23px;
+	line-height: 50px;
+	font-weight: 600;
+}
+
+.cases a{
+	color: #384354;
+}
+
+.cases button{
+	font-size: 20px;
+	height: 45px;
+	padding: 0 40px;
+	background-color: #99d0cb;
+	color: white;
+	border-radius: 5px;
+	margin-top:25px;
+}
+
+.cases_block_left {
+	margin-right: 60px;
+}
+
+.name_project{
+	width: 600px;
+	margin-top: 5px;
+
+}
+
+
+.cases h4{
+	font-size: 20px;
+	line-height: 30px;
+
+}
+
+.name_project p{
+	line-height: 20px;
+}
+
+
+
+
+
+/********** calculation ******/
+
+
+
+
+.calculation{
+	color: #1c2534;
+}
+
+.calculation h2{
+	margin-top: 100px;
+}
+
+.calculation_form {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.calculation_form_top{
+	display: flex;
+	flex-direction: column;
+}
+
+.calculation_form h3{
+	font-size:30px;
+	margin: 20px 0 ;
+}
+
+.calculation_form select{
+	display: inline-block;
+	width: 992px;
+	height: 60px;
+	background-color: #eeeeee;
+
+}
+
+@media(max-width: 992px){
+	.calculation_form select{
+	display: inline-block;
+	width: 761px;
+	height: 60px;
+	background-color: #eeeeee;
+
+}
+}
+
+@media(max-width: 761px){
+	.calculation_form select{
+	display: inline-block;
+	width: 540px;
+	height: 60px;
+	background-color: #eeeeee;
+
+}
+}
+
+@media(max-width: 540px){
+	.calculation_form select{
+	display: inline-block;
+	width: 300px;
+	height: 60px;
+	background-color: #eeeeee;
+
+}
+}
+
+.calculation_fonts{
+	font-size: 16px;
+	color: #737373;
+	font-weight: 500px;
+}
+
+
+
+.money{
+	margin-top: 30px;
+	padding: 25px 0 40px;
+	border-top: 2px solid #d1d1d1;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.summa_0{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.money h4{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+
+
+.calculation_button{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+.calculation_button input[type="submit"]{
+	height: 30px;
+	border: 2px solid #6d7682;
+	text-align: center;
+	background: none;
+	padding: 0 15px;
+	border-radius: 5px;
+	color: #6d7682;
+	margin-bottom: 30px;
+}
+
+.calculation_button input[type="submit"]:hover{
+	background-color: #6d7682;
+	color: white;
+	font-weight: bold;
+	box-shadow: 0 0 10px rgba(0,0,0,.5);
+	transform: scale(1.1);	
+}
+
+.calculation_button input[type="submit"]:active{
+	transform: scale(1);
+}
+
+
+
+
+/********** statistics ******/
+
+
+.statistics{
+	background: url("../img/statistics/bg.jpg") center  no-repeat;
+	background-size: cover;
+
+}
+
+.statistics h2{
+	padding-top: 40px
+}
+.statistics_center{
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.statistics_float{
+	text-align: center;
+	margin-right: 30px;
+}
+
+
+.statistics p{
+	margin: 20px;
+	font-size: 16px;
+	color: #323e4f;
+	line-height: 30px;
+}
+
+.statistics_numbers{
+	font-family: Impact, sans-serif;
+	font-size: 37px;
+}
+
+
+/********** reviews ******/
+
+.reviews{
+	width: 700px;
+	margin: 0 auto;
+}
+
+@media(max-width: 580px){
+	.reviews{
+		width: 400px;
+	}
+}
+
+.reviews p{
+	text-align: center;
+	color: #243042;
+	font-family: Calibri, serif;
+}
+.reviews img{
+	margin-bottom: 35px;
+}
+
+.massage{
+	line-height: 1.2em;
+	
+}
+.who{
+	margin: 20px 0 30px;
+}
+
+
+
+
+
+/***********Contacts*************/
+
+
+
+footer{
+	margin-top: 40px;
+	background: url("../img/contact/bg.jpg" ) top no-repeat; 
+	width: 100%;
+	color: white;
+	padding-bottom: 60px;
+}
+
+
+a.mail_a{
+	color: white;
+}
+
+.contacts{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.footer_text{
+	text-align: center;
+	line-height: 70px;
+}
+
+
+footer h2{
+	padding-top: 40px; 
+	color: white;
+}
+
+footer .border{
+	margin-bottom: 10px;
+}
+
+footer h3{
+	margin: 20px 0;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+.footer_contact{
+	margin-left: 40px;
+	text-align: center; 
+	width: 160px;
+}
+
+.footer_contact p{
+	margin-top: 20px;
+}
+
+.bg {
+	background-color: rgba(255,255,255, .8);
+	padding-left: 15px;
+}
+
+.form_massage{
+	margin-top: 10px;
+	width: 440px;
+	height: 35px; 
+}
+
+
+form textarea{
+	margin-top: 15px;
+	padding-top: 10px; 
+	width: 100%;
+	height: 90px;
+}
+
+.button_form_div{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.button_form{
+	margin-top:25px;
+	height: 40px;
+	padding: 0 15px;
+	font-size: 20px;
+	border: 2px solid white;
+	border-radius: 5px; 
+	background: none;
+	color: white;
+	text-align: center;
+}
+
+.input_contacts_1{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+@media(max-width: 992px){
+	.input_contacts_1{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
+}
+

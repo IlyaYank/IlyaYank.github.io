@@ -25,12 +25,12 @@
 					<div class="col-xxl-2 col-lg-3 col-7"><div class="logo">Андрей Браун</div></div>
 					<div class="px-0 col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block"><div class="menu">
 						<ul>
-							<li><a href="#">Обо мне</a></li>
-							<li><a href="#">Услуги</a></li>
-							<li><a href="#">Кейсы</a></li>
-							<li><a href="#">Прайс</a></li>
-							<li><a href="#">Отзывы</a></li>
-							<li><a href="#">Контакты</a></li>
+							<li><a href="index.html#About_me">Обо мне</a></li>
+							<li><a href="index.html#My_skills">Услуги</a></li>
+							<li><a href="index.html#Cases">Кейсы</a></li>
+							<li><a href="index.html#Calculation">Прайс</a></li>
+							<li><a href="index.html#Reviews">Отзывы</a></li>
+							<li><a href="index.html#Contacts">Контакты</a></li>
 						</ul>
 					</div></div>
 					<div class="col-5  botton_nav">
@@ -39,12 +39,12 @@
 						   Навигация
 						  </button>
 						  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-							    <li><a class="dropdown-item" href="#">Обо мне</a></li>
-							    <li><a class="dropdown-item" href="#">Услуги</a></li>
-							    <li><a class="dropdown-item" href="#">Кейсы</a></li>
-							    <li><a class="dropdown-item" href="#">Прайс</a></li>
-							    <li><a class="dropdown-item" href="#">Отзывы</a></li>
-							    <li><a class="dropdown-item" href="#">Контакты</a></li>
+							    <li><a class="dropdown-item" href="index.html#About_me">Обо мне</a></li>
+							    <li><a class="dropdown-item" href="index.html#My_skills">Услуги</a></li>
+							    <li><a class="dropdown-item" href="index.html#Cases">Кейсы</a></li>
+							    <li><a class="dropdown-item" href="index.html#Calculation">Прайс</a></li>
+							    <li><a class="dropdown-item" href="index.html#Reviews">Отзывы</a></li>
+							    <li><a class="dropdown-item" href="index.html#Contacts">Контакты</a></li>
 						  </ul>
 						</div>
 					</div>
@@ -68,7 +68,7 @@
 			</div>	
 	</section>
 
-	<section class="about_me">
+	<section class="about_me" id="About_me">
 		<div class="container about_me_2">
 			<div class="row  justify-content-center ">
 				<div class="col-lg-8 col-md-8 col-sm-7 col-6">
@@ -86,7 +86,7 @@
 		
 		
 	</section>
-	<section class="my_skills">
+	<section class="my_skills" id="My_skills">
 		<div class="container">
 			<div class="row my_skills_2">
 				<div class="col-12">
@@ -118,124 +118,160 @@
 			</div>
 		</div>
 	</section>
-	<section class="cases">
-		<h2>Кейсы</h2>
-		<div class="border"></div>
-		<p class="text_fish">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed Dapibus leo nec ornare diamcoccodo nibh ante facilisis.</p>
-		<div class="cases_block">
-			<img src="img/my_skills/site.jpg" alt="Сдесь кейс">
-				<div class="cases_block_left">
-					<h3>CLIENT:</h3>
-					<p class="cases_p">Какая-то компания</p>
-					<h3>WEBSITE:</h3>
-					<a href="#">http://www.somedomain.com</a><br>
-					<button>VISIT LIVE SITE</button>
+	<section class="cases" id="Cases">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-12">
+					<h2>Кейсы</h2>
+					<div class="border"></div>
+					<p class="text_fish">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed Dapibus leo nec ornare diamcoccodo nibh ante facilisis.</p>
+					<div class="cases_block">
+						<img  src="img/my_skills/site.jpg" alt="Сдесь кейс">
+							<div class="cases_block_left">
+								<h3>CLIENT:</h3>
+								<p class="cases_p">Какая-то компания</p>
+								<h3>WEBSITE:</h3>
+								<a href="#">http://www.somedomain.com</a><br>
+								<button>VISIT LIVE SITE</button>
+							</div>
+						<div class="name_project ">
+							<h4>Название проекта</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit., sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+						</div>
+					</div>
 				</div>
-			<div class="name_project ">
-				<h4>Название проекта</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit., sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 			</div>
 		</div>
 	</section>
-	<section class="calculation">
-		<h2>Расчет стоимости</h2>
-		<div class="calculation_form">
-				<form action="#">
-					<h3>Тип сайта</h3>
-					<select name="site_type"  class="calculation_fonts" id="site_type" >
-						<option value="type_punctkt0">Выберите пункт...</option>
-						<option value="type_punctkt1">Пункт 1</option>
-						<option value="type_punctkt2">Пункт 2</option>
-					</select>
-					<h3>Дизайн</h3>
-					<select name="site_design" class="calculation_fonts" id="site_design" >
-						<option value="design_punctkt0">Выберите пункт...</option>
-						<option value="design_punctkt1">Пункт 1</option>
-						<option value="design_punctkt2">Пункт 2</option>
-					</select>
-					<h3>Адаптивность</h3>
-					<select name="site_portability" class="calculation_fonts" id="site_portability" >
-						<option value="portability_punctkt0">Выберите пункт...</option>
-						<option value="portability_punctkt1">Пункт 1</option>
-						<option value="portability_punctkt2">Пункт 2</option>
-					</select>
-				<div class="money">
-					<h4 class="summa">0</h4>
-					<h4>Сроки</h4>
-					<h4 class="summa">0</h4>
-					<h4>Стоимость</h4>	
-				</div>
-				<div class="calculation_button">
-				<input  type="submit" value="Отправить">
-				</div>
-				</form>
-		</div>
-	</section>
-	<section class="statistics">
-		<h2>Немного статистики</h2>
-		<div class="border"></div>
-			<div class="statistics_center">
-				<div class="happiness statistics_float">
-					<img src="img/statistics/смайл.png" alt="Смайлик:)">
-					<p><span class="statistics_numbers">120</span> <br> СЧАСТЛИВЫХ КЛИЕНТОВ</p>
-				</div>
-				<div class="staples statistics_float">
-					<img src="img/statistics/скобки.png" alt="Скобки">
-					<p><span class="statistics_numbers">4,600</span> <br> ЧАСОВ РАБОТЫ</p>
-				</div>
-				<div class="happiness statistics_float">
-					<img src="img/statistics/галочка.png" alt="Галочка">
-					<p><span class="statistics_numbers">340</span> <br> ПРОЕКТОВ ЗАВЕРШЕНО</p>
-				</div>
-				<div class="happiness statistics_float">
-					<img src="img/statistics/кубок.png" alt="Кубок">
-					<p><span class="statistics_numbers">23</span> <br> НАГРАД ПОЛУЧЕНО</p>
+	<section class="calculation" id="Calculation">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12" >
+					<h2>Расчет стоимости</h2>
+					<div class="calculation_form">
+						<form action="#">
+							<div class="calculation_form_top">
+								<h3>Тип сайта</h3>
+								<select name="site_type"  class="calculation_fonts" id="site_type" >
+									<option value="type_punctkt0">Выберите пункт...</option>
+									<option value="type_punctkt1">Пункт 1</option>
+									<option value="type_punctkt2">Пункт 2</option>
+								</select>
+								<h3>Дизайн</h3>
+								<select name="site_design" class="calculation_fonts" id="site_design" >
+									<option value="design_punctkt0">Выберите пункт...</option>
+									<option value="design_punctkt1">Пункт 1</option>
+									<option value="design_punctkt2">Пункт 2</option>
+								</select>
+								<h3>Адаптивность</h3>
+								<select name="site_portability" class="calculation_fonts" id="site_portability" >
+									<option value="portability_punctkt0">Выберите пункт...</option>
+									<option value="portability_punctkt1">Пункт 1</option>
+									<option value="portability_punctkt2">Пункт 2</option>
+								</select>
+							</div>
+							<div class="money">
+								<div class="summa_1 summa_0"><h4>Сроки</h4><h4 class="summa">0</h4>
+								</div>
+								<div class="summa_2 summa_0"><h4>Стоимость</h4><h4 class="summa">0</h4>
+									</div>
+								
+							</div>
+							<div class="calculation_button">
+							<input  type="submit" value="Отправить">
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
+		</div>
+		
 	</section>
-	<section class="reviews">
-		<h2>Отзывы</h2>
-		<div class="border"></div>
-		<p><img src="img/reviews/boy.png" alt="Изображение клиента"></p>
-		<p class="massage">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapidus leo nec ornare diam.</p>
-		<p class="who"><strong> Михаил</strong>, Ген директор ПАО “Газпром”.</p>
-		<div class="input_radio">
-			<input  type="radio" value="novice">
-			<input  type="radio" value="novice">
-			<input  type="radio" value="novice">
+	<section class="statistics" id="Statistics">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2>Немного статистики</h2>
+					<div class="border"></div>
+					<div class="statistics_center">
+						<div class="happiness statistics_float">
+							<img src="img/statistics/смайл.png" alt="Смайлик:)">
+							<p><span class="statistics_numbers">120</span> <br> СЧАСТЛИВЫХ КЛИЕНТОВ</p>
+						</div>
+						<div class="staples statistics_float">
+							<img src="img/statistics/скобки.png" alt="Скобки">
+							<p><span class="statistics_numbers">4,600</span> <br> ЧАСОВ РАБОТЫ</p>
+						</div>
+						<div class="happiness statistics_float">
+							<img src="img/statistics/галочка.png" alt="Галочка">
+							<p><span class="statistics_numbers">340</span> <br> ПРОЕКТОВ ЗАВЕРШЕНО</p>
+						</div>
+						<div class="happiness statistics_float">
+							<img src="img/statistics/кубок.png" alt="Кубок">
+							<p><span class="statistics_numbers">23</span> <br> НАГРАД ПОЛУЧЕНО</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	<section class="reviews" id="Reviews">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-10 col-md-10 col-sm-10 col-10">
+					<h2>Отзывы</h2>
+					<div class="border"></div>
+					<p><img src="img/reviews/boy.png" alt="Изображение клиента"></p>
+					<p class="massage">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapidus leo nec ornare diam.</p>
+					<p class="who"><strong> Михаил</strong>, Ген директор ПАО “Газпром”.</p>
+				</div>
+			</div>
 		</div>
 	</section>
 </main>
-	<footer>
-		<h2>Мои контакты</h2>
-		<div class="border"></div>
-		<div class="footer_center">
-			<p class="footer_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec ornare diamcoccodo</p>
-			<div class="contacts">
-				<div class="location footer_contact">
-					<img src="img/cont/gео.png" alt="Геолокация">
-					<p>Санкт-Петербург Невский проспект 11</p>
-				</div>
-				<div class="Mail footer_contact">
-					<img src="img/cont/конверт.png " alt="Mail">
-					<p><a class="mail_a" href="#">info@companyname.com</a></p>
-				</div>
-				<div class="telephone footer_contact">
-					<img src="img/cont/труба.png" alt="Телефон">
-					<p>+7 999 999 99-99</p>
+	<footer id="Contacts" class="contacts_1">
+		<div class="container footer_contacts">
+			<div class="row justify-content-center">
+				<div class="col-lg-10">
+					<h2>Мои контакты</h2>
+					<div class="border"></div>
+					<div class="footer_center">
+						<p class="footer_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec ornare diamcoccodo</p>
+						<div class="contacts">
+							<div class="location footer_contact">
+								<img src="img/cont/gео.png" alt="Геолокация">
+								<p>Санкт-Петербург Невский проспект 11</p>
+							</div>
+							<div class="Mail footer_contact">
+								<img src="img/cont/конверт.png " alt="Mail">
+								<p><a class="mail_a" href="#">info@companyname.com</a></p>
+							</div>
+							<div class="telephone footer_contact">
+								<img src="img/cont/труба.png" alt="Телефон">
+								<p>+7 999 999 99-99</p>
+							</div>
+						</div>
+						<div class="footer_massage">
+							<h3>Оставить мне сообщение</h3>
+						</div>
+						<form class="form_contacts" action="#">
+							<div class="input_contacts_1">
+								<div class="input_contacts">
+									<input class="form_massage massage_name bg" type="text" value="" placeholder="Имя" name="name">
+								</div>
+							<div class="input_contacts">
+								<input class="form_massage bg" type="mail" value="" placeholder="Email" name="name">
+							</div>
+							</div>
+							<textarea class="bg" placeholder="Сообщение"></textarea>
+							<div class="button_form_div">
+							<input class="button_form" type="submit" value="Отправить">
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
-			<div class="footer_massage">
-				<h3>Оставить мне сообщение</h3>
-			</div>
-			<form action="#">
-				<input class="form_massage massage_name bg" type="text" value="" placeholder="Имя" name="name">
-				<input class="form_massage bg" type="mail" value="" placeholder="Email" name="name"><br>
-				<textarea class="bg" placeholder="Сообщение"></textarea>
-				<div class="button_form_div">
-				<input class="button_form" type="submit" value="Отправить">
-				</div>
-			</form>
 		</div>
 	</footer>
 
